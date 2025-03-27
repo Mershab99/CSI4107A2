@@ -1,0 +1,7 @@
+rank-bm25
+requests
+nltk
+numpy
+sentence-transformers
+tensorflow
+tensorflow-hub
