@@ -62,12 +62,13 @@ Results of BM25 and reranked
     ```
     query_id Q0 doc_id rank score run_name
     ```
-  - Example output:
-    ```
-1 Q0 42421723 1 0.2703 neural_rerank
-1 Q0 21456232 2 0.2054 neural_rerank
-1 Q0 7581911 3 0.1882 neural_rerank
-    ```
+- Example output:
+  ```
+  1 Q0 42421723 1 0.2703 neural_rerank
+  1 Q0 21456232 2 0.2054 neural_rerank
+  1 Q0 7581911  3 0.1882 neural_rerank
+  ```
+
 
 - **Vocabulary Statistics & Sample Output:**  
   - The program prints:
