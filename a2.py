@@ -1,3 +1,8 @@
+"""
+Assignment 2: Neural Re-ranking for IR System
+Author: Mershab Issadien (300027272)
+"""
+
 import json
 import re
 import numpy as np
@@ -190,6 +195,6 @@ if __name__ == "__main__":
     # Display README data
     print_readme(vocab, list(vocab)[:100], top100_results)
 
-    print("\n✅ Results saved successfully!")
+    print("\nResults saved successfully!")
     print("- BM25 results: BM25_Results.txt")
     print("- Neural re-ranked results: Reranked_Results.txt")
