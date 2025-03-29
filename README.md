@@ -115,17 +115,17 @@ This script has two functions:
 2. Produces the final `Results.txt` file based only on the highest system test queries (neural re-ranking).
 
 
-# Setup and run (Mac/Linux)
+# Setup and run (Mac)
 
-# 1: Create and activate a virtual environment
+### 1: Create and activate a virtual environment
  python3 -m venv venv
 source venv/bin/activate
 
-# 2: Install dependencies
+### 2: Install dependencies
 pip install -r requirements.txt
 pip install pandas
 
-# 3: Run the script 
+### 3: Run the script 
 python3 generate_results_and_evaluate.py
 
 
