@@ -118,17 +118,16 @@ This script has two functions:
 
 # Setup and run (Mac)
 
-### 1: Create and activate a virtual environment
- python3 -m venv venv
-source venv/bin/activate
+### 1: Install dependencies
 
-### 2: Install dependencies
+```bash
 pip install -r requirements.txt
-pip install pandas
+```
 
 ### 3: Run the script 
+```bash
 python3 generate_results_and_evaluate.py
-
+```
 
 
 
