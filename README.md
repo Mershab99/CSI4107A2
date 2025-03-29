@@ -67,7 +67,6 @@ Results of BM25 and reranked
 1 Q0 42421723 1 0.2703 neural_rerank
 1 Q0 21456232 2 0.2054 neural_rerank
 1 Q0 7581911 3 0.1882 neural_rerank
-...
     ```
 
 - **Vocabulary Statistics & Sample Output:**  
@@ -118,9 +117,15 @@ This script has two functions:
 
 # Setup and run (Mac/Linux)
 
-python3 -m venv venv
+# 1: Create and activate a virtual environment
+ python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt pandas
+
+# 2: Install dependencies
+pip install -r requirements.txt
+pip install pandas
+
+# 3: Run the script 
 python3 generate_results_and_evaluate.py
 
 
